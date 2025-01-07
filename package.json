@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-perplexity",
+  "name": "@watzon/n8n-nodes-perplexity",
   "version": "0.1.0",
   "description": "n8n node to interact with the Perplexity AI API",
   "keywords": [
@@ -9,7 +9,7 @@
     "llm"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/watzon/n8n-nodes-perplexity#readme",
   "author": {
     "name": "Chris Watson",
     "email": "chris@watzon.tech"
@@ -39,13 +39,9 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js",
       "dist/credentials/PerplexityApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js",
       "dist/nodes/Perplexity/Perplexity.node.js"
     ]
   },
