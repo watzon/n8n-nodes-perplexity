@@ -1,6 +1,6 @@
 {
   "name": "@watzon/n8n-nodes-perplexity",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "n8n node to interact with the Perplexity AI API",
   "keywords": [
     "n8n-community-node-package",
