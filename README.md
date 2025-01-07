@@ -61,16 +61,9 @@ To use this node, you need a Perplexity API key. You can obtain one by:
 
 ## Version History
 
-### 0.3.0
+### 0.4.2
 
-- Updated to latest Perplexity models
-- Fixed model names to follow title case
-- Updated temperature range to 0-2
-- Set more appropriate default values for parameters
-
-### 0.2.0
-
-- Initial release with chat completion support
+- Initial usable release
 
 ## License
 
