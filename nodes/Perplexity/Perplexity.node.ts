@@ -48,15 +48,15 @@ export class Perplexity implements INodeType {
 				type: 'options',
 				options: [
 					{
-						name: 'Llama 3.1 Sonar Small (8B, 128k context)',
+						name: 'Llama 3.1 Sonar Small (8B, 128K Context)',
 						value: 'llama-3.1-sonar-small-128k-online',
 					},
 					{
-						name: 'Llama 3.1 Sonar Large (70B, 128k context)',
+						name: 'Llama 3.1 Sonar Large (70B, 128K Context)',
 						value: 'llama-3.1-sonar-large-128k-online',
 					},
 					{
-						name: 'Llama 3.1 Sonar Huge (405B, 128k context)',
+						name: 'Llama 3.1 Sonar Huge (405B, 128K Context)',
 						value: 'llama-3.1-sonar-huge-128k-online',
 					},
 				],
