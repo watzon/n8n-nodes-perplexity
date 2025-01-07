@@ -48,19 +48,19 @@ export class Perplexity implements INodeType {
 				type: 'options',
 				options: [
 					{
-						name: 'Mistral 7B Instruct',
-						value: 'mistral-7b-instruct',
+						name: 'Llama 3.1 Sonar Small (8B, 128k context)',
+						value: 'llama-3.1-sonar-small-128k-online',
 					},
 					{
-						name: 'Codellama 34B Instruct',
-						value: 'codellama-34b-instruct',
+						name: 'Llama 3.1 Sonar Large (70B, 128k context)',
+						value: 'llama-3.1-sonar-large-128k-online',
 					},
 					{
-						name: 'Mixtral 8x7B Instruct',
-						value: 'mixtral-8x7b-instruct',
+						name: 'Llama 3.1 Sonar Huge (405B, 128k context)',
+						value: 'llama-3.1-sonar-huge-128k-online',
 					},
 				],
-				default: 'mistral-7b-instruct',
+				default: 'llama-3.1-sonar-large-128k-online',
 				description: 'The model to use for completion',
 				required: true,
 			},
@@ -121,10 +121,10 @@ export class Perplexity implements INodeType {
 						type: 'number',
 						typeOptions: {
 							minValue: 0,
-							maxValue: 1,
+							maxValue: 2,
 						},
 						default: 0.7,
-						description: 'Sampling temperature between 0 and 1',
+						description: 'Sampling temperature between 0 and 2',
 					},
 					{
 						displayName: 'Max Tokens',
@@ -141,7 +141,7 @@ export class Perplexity implements INodeType {
 							minValue: 0,
 							maxValue: 1,
 						},
-						default: 1,
+						default: 0.9,
 						description: 'Nucleus sampling parameter',
 					},
 				],
