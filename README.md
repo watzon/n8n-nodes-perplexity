@@ -32,9 +32,14 @@ Create chat completions using Perplexity's LLMs. The node supports:
 
 - Multiple messages with system, user, and assistant roles
 - All available Perplexity models:
-  - Llama 3.1 Sonar Small (8B, 128K Context)
-  - Llama 3.1 Sonar Large (70B, 128K Context)
-  - Llama 3.1 Sonar Huge (405B, 128K Context)
+  - Sonar Reasoning Pro
+  - Sonar Reasoning
+  - Sonar Pro
+  - Sonar
+  - R1 1776
+  - Llama 3.1 Sonar Small (Legacy)
+  - Llama 3.1 Sonar Large (Legacy)
+  - Llama 3.1 Sonar Huge (Legacy)
 - Customizable parameters:
   - Temperature (0-2)
   - Max tokens
@@ -60,6 +65,10 @@ To use this node, you need a Perplexity API key. You can obtain one by:
 - [Perplexity API documentation](https://docs.perplexity.ai/)
 
 ## Version History
+
+### 0.5.0
+
+- Added support for new Perplexity models
 
 ### 0.4.2
 
