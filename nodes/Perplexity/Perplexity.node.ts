@@ -46,21 +46,42 @@ export class Perplexity implements INodeType {
 				displayName: 'Model',
 				name: 'model',
 				type: 'options',
+				// eslint-disable-next-line n8n-nodes-base/node-param-options-type-unsorted-items
 				options: [
 					{
-						name: 'Llama 3.1 Sonar Small (8B, 128K Context)',
+						name: 'Sonar Reasoning Pro',
+						value: 'sonar-reasoning-pro',
+					},
+					{
+						name: 'Sonar Reasoning',
+						value: 'sonar-reasoning',
+					},
+					{
+						name: 'Sonar Pro',
+						value: 'sonar-pro',
+					},
+					{
+						name: 'Sonar',
+						value: 'sonar',
+					},
+					{
+						name: 'R1 1776',
+						value: 'r1-1776',
+					},
+					{
+						name: 'Llama 3.1 Sonar Small (Legacy)',
 						value: 'llama-3.1-sonar-small-128k-online',
 					},
 					{
-						name: 'Llama 3.1 Sonar Large (70B, 128K Context)',
+						name: 'Llama 3.1 Sonar Large (Legacy)',
 						value: 'llama-3.1-sonar-large-128k-online',
 					},
 					{
-						name: 'Llama 3.1 Sonar Huge (405B, 128K Context)',
+						name: 'Llama 3.1 Sonar Huge (Legacy)',
 						value: 'llama-3.1-sonar-huge-128k-online',
 					},
 				],
-				default: 'llama-3.1-sonar-large-128k-online',
+				default: 'sonar',
 				description: 'The model to use for completion',
 				required: true,
 			},
