@@ -5,7 +5,7 @@ import type {
 	INodeType,
 	INodeTypeDescription,
 } from 'n8n-workflow';
-
+import { NodeConnectionType } from 'n8n-workflow';
 export class Perplexity implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Perplexity',
@@ -18,8 +18,8 @@ export class Perplexity implements INodeType {
 		defaults: {
 			name: 'Perplexity',
 		},
-		inputs: ['main'],
-		outputs: ['main'],
+		inputs: [NodeConnectionType.Main],
+		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
 				name: 'perplexityApi',
@@ -220,4 +220,4 @@ export class Perplexity implements INodeType {
 
 		return [returnData];
 	}
-} 
+}

@@ -66,6 +66,10 @@ To use this node, you need a Perplexity API key. You can obtain one by:
 
 ## Version History
 
+### 0.5.1
+
+- Update n8n-workflow to the latest version
+
 ### 0.5.0
 
 - Added support for new Perplexity models
