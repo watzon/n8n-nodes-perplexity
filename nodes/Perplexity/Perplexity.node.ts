@@ -49,6 +49,10 @@ export class Perplexity implements INodeType {
 				// eslint-disable-next-line n8n-nodes-base/node-param-options-type-unsorted-items
 				options: [
 					{
+						name: 'Sonar Deep Research',
+						value: 'sonar-deep-research',
+					},
+					{
 						name: 'Sonar Reasoning Pro',
 						value: 'sonar-reasoning-pro',
 					},

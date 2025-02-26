@@ -66,6 +66,10 @@ To use this node, you need a Perplexity API key. You can obtain one by:
 
 ## Version History
 
+### 0.5.2
+
+- Add support for Deep Research
+
 ### 0.5.1
 
 - Update n8n-workflow to the latest version
